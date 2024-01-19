@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    background-color: #ECE8D5;
+    height: 5rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    max-width: 1020px;
+    padding: 1rem 1.5rem;
+}
+
+.logo {
+    flex-grow: 1;
+}
+
+.logo i {
+    text-decoration: none;
+    color: #6B9D46;
+    font-size: 2.5rem;
+}
+
+.menu-desktop-list {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    display: none;
+}
+
+/*--- MENU MOBILE ---*/
+.menu-mobile-list {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 5rem;
+    padding: 10px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, .1);
+    backdrop-filter: blur;
+    border-radius: 10px;
+    transition: display .3s;
+}
+
+.menu-mobile-list .menu-item {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.menu-mobile-list .menu-item a {
+    color: #ECE8D5;
+}
+
+.open {
+    display: block;
+}
+/*--- END ---*/
+
+.menu-item a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #B75724;
+    padding: 8px 10px;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.sign-in-btn {
+    height: 2.5rem;
+    border: 1px solid #6B9D46;
+    background-color: transparent;
+    color: #6B9D46;
+}
+
+.menu-mobile-btn {
+    padding: 3px;
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem;
+    color: #6B9D46;
+    background-color: transparent;
+    border-radius: 0;
+    border: none;
+}
