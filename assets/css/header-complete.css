@@ -2,14 +2,16 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     margin: 0;
     padding: 0;
     list-style: none;
+    box-sizing: border-box;
 }
 
 header {
     background-color: #ECE8D5;
-    height: 5rem;
+    height: fit-content;
 }
 
 nav {
@@ -21,6 +23,7 @@ nav {
 
     max-width: 1020px;
     padding: 1rem 1.5rem;
+    margin: 0 auto;
 }
 
 .logo {
@@ -47,20 +50,15 @@ nav {
     right: 2rem;
     top: 5rem;
     padding: 10px;
-    width: 300px;
+    width: 280px;
     background-color: rgba(255, 255, 255, .1);
     backdrop-filter: blur;
     border-radius: 10px;
-    transition: display .3s;
 }
 
 .menu-mobile-list .menu-item {
     text-align: center;
     padding: 1.5rem;
-}
-
-.menu-mobile-list .menu-item a {
-    color: #ECE8D5;
 }
 
 .open {
@@ -71,10 +69,15 @@ nav {
 .menu-item a {
     text-decoration: none;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     color: #B75724;
     padding: 8px 10px;
+    transition: color .2s;
+}
+
+.menu-item a:hover {
+    color: #000;
 }
 
 button {
@@ -86,20 +89,51 @@ button {
     cursor: pointer;
 }
 
-.sign-in-btn {
+.sign-btn {
     height: 2.5rem;
     border: 1px solid #6B9D46;
     background-color: transparent;
     color: #6B9D46;
+    transition: box-shadow .3s;
+}
+
+.sign-btn:hover {
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, .1);
 }
 
 .menu-mobile-btn {
     padding: 3px;
     height: 3rem;
     width: 3rem;
-    font-size: 2rem;
     color: #6B9D46;
     background-color: transparent;
     border-radius: 0;
     border: none;
+}
+
+.menu-mobile-btn i {
+    font-size: 2rem;
+    width: 100%;
+}
+
+body {
+    background-color: #6B9D46;
+}
+
+@media screen and (min-width: 640px) {
+    .menu-mobile-list {
+        display: none;
+    }
+
+    .menu-desktop-list {
+        display: flex;
+    }
+
+    .menu-mobile-btn {
+        display: none;
+    }
+
+    .logo {
+        flex-grow: 0;
+    }
 }
