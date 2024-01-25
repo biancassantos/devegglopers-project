@@ -93,8 +93,12 @@ button {
     height: 2.5rem;
     border: 1px solid #6B9D46;
     background-color: transparent;
-    color: #6B9D46;
     transition: box-shadow .3s;
+}
+
+.sign-btn a {
+    text-decoration: none;
+    color: #6B9D46;
 }
 
 .sign-btn:hover {
