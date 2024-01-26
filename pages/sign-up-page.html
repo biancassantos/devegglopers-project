@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devegglopers | Sign Up</title>
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/sign-up-page.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body>
+    <header>
+        <nav class="menu-desktop">
+            <a href="../index.html" class="logo"><i class="bi bi-circle-fill"></i></a>
+            <button class="sign-btn"><a href="sign-in-page.html">sign in</a></button>
+        </nav>
+    </header>
+    <main>
+        <div class="sign-up-bg">
+            <section class="sign-up-container">
+                <h1>Register</h1>
+                <p>Sign up using:</p>
+                <div class="sign-up-icons">
+                    <i class="bi bi-google"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-github"></i>
+                </div>
+                <p id="or-p">Or continue with</p>
+
+                <form action="#">
+                    <fieldset>
+                        <legend>Personal info</legend>
+                        <div>
+                            <label for="fname" class="label-title">First name</label><br>
+                            <input type="text" name="fname" id="fname" class="input-line" required>
+                        </div>
+                        <div>
+                            <label for="lname"class="label-title">Last name</label><br>
+                            <input type="text" name="lname" id="lname" class="input-line" required>
+                        </div>
+
+                        <div>
+                            <label for="birth" class="label-title">Birthdate</label>
+                            <input type="date" name="birth" id="birth" required>
+                        </div>
+
+                        <div>
+                            <label for="gender" class="label-title">Gender</label><br>
+                            <div class="radio-inputs">
+                                <input type="radio" name="gender" id="female" checked>
+                                <label for="female">Female</label>
+                                <input type="radio" name="gender" id="male">
+                                <label for="male">Male</label>
+                                <input type="radio" name="gender" id="other">
+                                <label for="other">Other</label>
+                                <input type="radio" name="gender" id="not">
+                                <label for="not">Prefer not to say</label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="location"class="label-title">Location</label>
+                            <input type="text" name="location" id="location" class="input-line" placeholder="Example, EX">
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Dev area</legend>
+                        <div>
+                            <label for="area" class="label-title">Area</label>
+                            <div class="radio-inputs">
+                                <input type="radio" name="area" id="front" checked>
+                                <label for="front">Front-End</label>
+                                <input type="radio" name="area" id="back">
+                                <label for="back">Back-End</label>
+                                <input type="radio" name="area" id="full">
+                                <label for="full">Fullstack</label>
+                            </div>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Login</legend>
+
+                        <div>
+                            <label for="email" class="label-title">E-mail</label><br>
+                            <input type="email" name="email" id="email" class="input-line" required>
+                        </div>
+                        <di>
+                            <label for="password" class="label-title">Password</label><br>
+                            <input type="password" name="password" id="password" class="input-line" required maxlength="16">
+                        </di>
+                    </fieldset>
+                </form>
+                <button><a href="#">sign up</a></button>
+            </section>
+        </div>
+    </main>
+</body>
+</html>

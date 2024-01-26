@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Devegglopers | Sign In</title>
-    <link rel="stylesheet" href="../assets/css/header-complete.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
     <link rel="stylesheet" href="../assets/css/sign-in-page.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
@@ -12,14 +12,22 @@
 <body>
     <header>
         <nav class="menu-desktop">
-            <a href="#" class="logo"><i class="bi bi-circle-fill"></i></a>
-            <button class="sign-btn"><a href="pages/sign-in-page.html">sign up</a></button>
+            <a href="../index.html" class="logo"><i class="bi bi-circle-fill"></i></a>
+            <button class="sign-btn"><a href="sign-up-page.html">sign up</a></button>
         </nav>
     </header>
     <main>
-        <section class="login-bg">
-            <div class="login-container">
+        <div class="login-bg">
+            <section class="login-container">
                 <h1>Welcome back!</h1>
+                <p>Sign in using:</p>
+                <div class="login-icons">
+                    <i class="bi bi-google"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-github"></i>
+                </div>
+                <p id="or-p">Or continue with</p>
+
                 <form action="#">
                     <div class="input-container">
                         <label for="login"><i class="bi bi-person-fill"></i> Login</label><br>
@@ -32,14 +40,8 @@
                 </form>
                 <a href="#" id="forgot">Forgot your password?</a>
                 <button><a href="#">sign in</a></button>
-                <p>Or sign in using:</p>
-                <div class="login-icons">
-                    <i class="bi bi-google"></i>
-                    <i class="bi bi-facebook"></i>
-                    <i class="bi bi-github"></i>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
 </body>
 </html>
