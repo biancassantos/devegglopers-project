@@ -28,12 +28,12 @@ nav {
 
 .logo {
     flex-grow: 1;
-}
 
-.logo i {
+    font-family: 'Righteous', sans-serif;
+    text-transform: uppercase;
     text-decoration: none;
     color: #6B9D46;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 .menu-desktop-list {

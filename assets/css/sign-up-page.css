@@ -108,11 +108,6 @@ fieldset legend {
 }
 
 button {
-    background-color: #6B9D46;
-    height: 3rem;
-    border: none;
-    border-radius: 30px;
-    margin-bottom: 2rem;
     transition: box-shadow .3s;
 }
 
@@ -128,8 +123,22 @@ button a {
     padding: 5px;
 }
 
+.sign-button-body {
+    background-color: #6B9D46;
+    height: 3rem;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+}
+
 @media screen and (min-width: 430px) {
-    .input-container input {
+    .input-line {
         width: 330px;
+    }
+
+    fieldset {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1.5rem;
     }
 }

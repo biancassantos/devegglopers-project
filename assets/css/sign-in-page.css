@@ -81,11 +81,6 @@ body {
 }
 
 button {
-    background-color: #6B9D46;
-    height: 3rem;
-    border: none;
-    border-radius: 30px;
-    margin-bottom: 2rem;
     transition: box-shadow .3s;
 }
 
@@ -99,6 +94,14 @@ button a {
     font-weight: 500;
     text-decoration: none;
     padding: 5px;
+}
+
+.sign-button-body {
+    background-color: #6B9D46;
+    height: 3rem;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 430px) {
