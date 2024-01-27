@@ -29,6 +29,7 @@
                 <p id="or-p">Or continue with</p>
 
                 <form action="#">
+                    <!--PERSONAL FIELDSET-->
                     <fieldset>
                         <legend>Personal info</legend>
                         <div>
@@ -65,6 +66,7 @@
                         </div>
                     </fieldset>
 
+                    <!--DEV AREA FIELDSET-->
                     <fieldset>
                         <legend>Dev area</legend>
                         <div>
@@ -77,24 +79,23 @@
                                 <input type="radio" name="area" id="full">
                                 <label for="full">Fullstack</label>
                             </div>
-                            <br>
-                            <div>
-                                <label for="level" class="label-title">Level</label>
-                                <div class="radio-inputs">
-                                    <input type="radio" name="level" id="junior">
-                                    <label for="junior">Junior</label>
-                                    <input type="radio" name="level" id="senior">
-                                    <label for="senior">Senior</label>
-                                    <input type="radio" name="level" id="student">
-                                    <label for="student">Student</label>
-                                </div>
+                        </div>
+                        <div>
+                            <label for="level" class="label-title">Level</label>
+                            <div class="radio-inputs">
+                                <input type="radio" name="level" id="junior" checked>
+                                <label for="junior">Junior</label>
+                                <input type="radio" name="level" id="senior">
+                                <label for="senior">Senior</label>
+                                <input type="radio" name="level" id="student">
+                                <label for="student">Student</label>
                             </div>
                         </div>
                     </fieldset>
 
+                    <!--LOGIN FIELDSET-->
                     <fieldset>
                         <legend>Login</legend>
-
                         <div>
                             <label for="email" class="label-title">E-mail</label><br>
                             <input type="email" name="email" id="email" class="input-line" required>
