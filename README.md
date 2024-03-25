@@ -14,4 +14,4 @@ Com códigos e design autorais, é meu segundo projeto.
 * JS
 
 **Imagens:**
-* De <a href="https://pixabay.com/pt/illustrations/caf%C3%A9-da-manh%C3%A3-ovo-ovos-fritos-7691784/">Pixabay</a>
+* De <a href="https://pixabay.com/pt/illustrations/caf%C3%A9-da-manh%C3%A3-ovo-ovos-fritos-7691784/" target="_blank">Pixabay</a>
