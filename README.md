@@ -4,7 +4,7 @@ Olá, esse é um projeto de um site fictício para cadastro de devs em uma rede 
 
 Com códigos e design autorais, é meu segundo projeto.
 
-[Acesse aqui sua página.](https://biancassantos.github.io/devegglopers-project/)
+<a href="https://biancassantos.github.io/devegglopers-project/)" target="_blank">Acesse aqui sua página.</a>
 
 ![Design do projeto](https://raw.githubusercontent.com/biancassantos/devegglopers-project/main/devegglopers-design.png)
 
